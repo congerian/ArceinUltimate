@@ -1,4 +1,9 @@
 name: ArceinUltimate
 main: ru.arcein.plugins.arceinultimate.core.ArceinUltimate
-version: 0.0.0.3
+version: 0.0.0.4
+api-version: 1.16
+load: STARTUP
+author: Arcein team
+prefix: ArceinUltimate
+softdepend: []
 depend: []
