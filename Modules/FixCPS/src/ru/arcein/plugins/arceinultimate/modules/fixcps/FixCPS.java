@@ -1,4 +1,7 @@
 package ru.arcein.plugins.arceinultimate.modules.fixcps;
 
-public class FixCPS {
+import ru.arcein.plugins.arceinultimate.module.Module;
+
+public class FixCPS extends Module {
+
 }
