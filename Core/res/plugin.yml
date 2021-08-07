@@ -1,0 +1,4 @@
+name: ArceinUltimate
+main: ru.arcein.plugins.arceinultimate.core.ArceinUltimate
+version: 0.0.0.3
+depend: []

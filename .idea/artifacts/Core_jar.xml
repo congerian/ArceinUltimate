@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Core:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ArceinUltimate/</output-path>
+    <root id="archive" name="ArceinUltimate.jar">
+      <element id="module-output" name="Core" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Core/res" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,3 @@
+name: FixCPS
+main: ru.arcein.plugins.arceinultimate.modules.FixCPS
+version: 0.0.0.1
