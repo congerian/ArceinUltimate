@@ -1,24 +1,39 @@
 package ru.arcein.plugins.arceinultimate.core;
 
-import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+import ru.arcein.plugins.arceinultimate.core.integration.IntegrationsHandler;
+import ru.arcein.plugins.arceinultimate.core.module.ModulesHandler;
 
 public class ArceinUltimate extends JavaPlugin {
+
+    ModulesHandler modulesHandler;
+    IntegrationsHandler integrationsHandler;
+
     public void onLoad() {
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has started loading!");
+        this.getLogger().info(ChatColor.AQUA + "The CORE has started loading!");
+
+        modulesHandler = new ModulesHandler(this);
+        integrationsHandler = new IntegrationsHandler(this);
+
+        modulesHandler.loadModules();
         //...
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has been loaded!");
+        this.getLogger().info(ChatColor.GREEN + "The CORE has been loaded!");
     }
 
     public void onEnable() {
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has started enabling!");
+        this.getLogger().info(ChatColor.AQUA + "The CORE has started enabling!");
+
+        modulesHandler.enableModules();
         //...
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has been enabled!");
+        this.getLogger().info(ChatColor.GREEN + "The CORE has been enabled!");
     }
 
     public void onDisable(){
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has started disabling!");
+        this.getLogger().info(ChatColor.AQUA + "The CORE has started disabling!");
+
+        modulesHandler.disableModules();
         //...
-        Bukkit.getLogger().info("[ArceinUltimate] The CORE has been disabled!");
+        this.getLogger().info(ChatColor.GREEN + "The CORE has been disabled!");
     }
 }
