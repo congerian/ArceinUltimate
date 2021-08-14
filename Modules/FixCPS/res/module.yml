@@ -1,3 +1,5 @@
-name: FixCPS
-main: ru.arcein.plugins.arceinultimate.modules.fixcps.FixCPS
-version: 0.0.0.1
+name: "FixCPS"
+version: "0.0.0.0"
+api-version: "0.0"
+info: "Я люблю ебать собак"
+classpath: "ru.arcein.plugins.arceinultimate.modules.fixcps.FixCPSModule"
