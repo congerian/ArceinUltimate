@@ -195,7 +195,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="core" />
                       </list>
                     </value>
                   </entry>
