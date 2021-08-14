@@ -2,6 +2,7 @@ package ru.arcein.plugins.arceinultimate.core.module;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.plugin.java.JavaPlugin;
 import ru.arcein.plugins.arceinultimate.core.ArceinUltimate;
 
 import java.util.HashMap;
@@ -9,7 +10,7 @@ import java.util.Map;
 
 public class ModulesHandler {
 
-    protected ArceinUltimate plugin;
+    private ArceinUltimate plugin;
     protected Map<String, Module> loadedModules;
     protected Map<String, Module> modules = new HashMap<>();
 
@@ -28,6 +29,10 @@ public class ModulesHandler {
     public void loadModules(){
         loadedModules = new HashMap<>();
         loader.loadModules();
+    }
+
+    public ArceinUltimate getPlugin(){
+        return this.plugin;
     }
 
     public void enableModules(){
