@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArceinUltimate.iml" filepath="$PROJECT_DIR$/ArceinUltimate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/FixCPS/FixCPS.iml" filepath="$PROJECT_DIR$/Modules/FixCPS/FixCPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modules/HIBC/HIBC.iml" filepath="$PROJECT_DIR$/Modules/HIBC/HIBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modules/Modules.iml" filepath="$PROJECT_DIR$/Modules/Modules.iml" />
     </modules>
   </component>

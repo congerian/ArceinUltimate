@@ -1,46 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Core:jar" />
+      <artifact name="FixCPS:jar" />
+      <artifact name="HIBC:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fffae76-b05a-45ca-9c57-5753d3b657b4" name="Default Changelist" comment="" />
+    <list default="true" id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="Больше библиотек!" />
+    <list id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="Core">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Modules.iml" afterDir="false" />
+    </list>
+    <list id="f265dfaf-bf47-4e16-a73e-85cf922c1928" name="FixCPS" comment="FixCPS">
+      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/FixCPS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/res/FixCPS/defaults/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/src/ru/arcein/plugins/arceinultimate/modules/fixcps/FixCPSModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FixCPS/res/module.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FixCPS/res/module.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/FixCPS/src/ru/arcein/plugins/arceinultimate/modules/fixcps/FixCPS.java" beforeDir="false" />
+    </list>
+    <list id="9a3b307c-df5b-4029-a48d-da1b89cd4912" name="HIBC" comment="HIBC">
+      <change afterPath="$PROJECT_DIR$/Modules/HIBC/HIBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/HIBC/res/HIBC/defaults/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/HIBC/res/module.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/HIBC/src/ru/arcein/plugins/arceinultimate/modules/hibc/HIBCModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/integration/IntegrationsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/integration/IntegrationsHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="core" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1wPASeI5qftZro6X1DonTbvyzPs" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wWUZVXRpz5W01fhL8mci7xSGNQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/FixCPS" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Modules/HIBC/res" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.3051643" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\conge\Desktop\ArceinUltimate\Modules\HeroesItemBarCasting" />
+      <recent name="C:\Users\conge\Desktop\ArceinUltimate\Modules\FixCPS\res\FixCPS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\conge\Desktop\ArceinUltimate\Modules\FixCPS\res\FixCPS\defaults" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Рефакторинг">
+      <created>1628353883392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628353883392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил .gitignore">
+      <created>1628354003002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628354003002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Небольшой рефакторинг">
+      <created>1628354074330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628354074330</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Небольшой рефакторинг">
+      <created>1628354584838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628354584838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Небольшой рефакторинг">
+      <created>1628354757764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628354757764</updated>
+    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fffae76-b05a-45ca-9c57-5753d3b657b4" name="Default Changelist" comment="" />
-      <created>1628349853729</created>
+      <changelist id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="Небольшой рефакторинг" />
+      <changelist id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="" />
+      <changelist id="f265dfaf-bf47-4e16-a73e-85cf922c1928" name="FixCPS" comment="" />
+      <changelist id="9a3b307c-df5b-4029-a48d-da1b89cd4912" name="HIBC" comment="" />
+      <created>1628573899342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628349853729</updated>
-      <workItem from="1628349857134" duration="74000" />
+      <updated>1628573899342</updated>
+      <workItem from="1628573902562" duration="29011000" />
+      <workItem from="1628639830598" duration="7651000" />
+      <workItem from="1628696216479" duration="5492000" />
+      <workItem from="1628712785253" duration="750000" />
+      <workItem from="1628875776148" duration="3236000" />
     </task>
+    <task id="LOCAL-00006" summary="Добавил события загрузки модулей">
+      <created>1628628429778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628628429779</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавил базовые исключения">
+      <created>1628629315225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628629315225</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавил реализацию загрузки модулей">
+      <created>1628630246899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628630246899</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Больше библиотек!">
+      <created>1628940587617</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628940587617</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Больше библиотек!">
+      <created>1628940597775</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628940597775</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,7 +214,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="core" />
                       </list>
                     </value>
                   </entry>
@@ -68,5 +225,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Рефакторинг" />
+    <MESSAGE value="Добавил .gitignore" />
+    <MESSAGE value="Небольшой рефакторинг" />
+    <MESSAGE value="Добавил события загрузки модулей" />
+    <MESSAGE value="Добавил базовые исключения" />
+    <MESSAGE value="Добавил реализацию загрузки модулей" />
+    <MESSAGE value="Больше библиотек!" />
+    <MESSAGE value="HIBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="HIBC" />
   </component>
 </project>
