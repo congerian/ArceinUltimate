@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FixCPS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/modules/</output-path>
+    <root id="archive" name="FixCPS.jar">
+      <element id="module-output" name="FixCPS" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Modules/FixCPS/res" />
+    </root>
+  </artifact>
+</component>
