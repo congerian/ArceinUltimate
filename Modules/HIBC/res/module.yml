@@ -1,0 +1,5 @@
+name: "HIBC"
+version: "0.0.0.0"
+api-version: "0.0"
+info: "Модуль для каста спеллов с помощью Heroes"
+classpath: "ru.arcein.plugins.arceinultimate.modules.hibc.HIBCModule"
