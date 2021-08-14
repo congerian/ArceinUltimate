@@ -8,8 +8,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="" />
-    <list id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="Core" />
+    <list default="true" id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="Воркспейс">
+      <change beforePath="$PROJECT_DIR$/Modules/FixCPS/FixCPS.iml" beforeDir="false" />
+    </list>
+    <list id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="Core">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="f265dfaf-bf47-4e16-a73e-85cf922c1928" name="FixCPS" comment="FixCPS" />
     <list id="9a3b307c-df5b-4029-a48d-da1b89cd4912" name="HIBC" comment="HIBC" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="core" />
+        <entry key="$PROJECT_DIR$" value="HIBC" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
