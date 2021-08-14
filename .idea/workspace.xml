@@ -8,33 +8,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="Больше библиотек!" />
-    <list id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="Core">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/module/ModulesLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/Modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Modules.iml" afterDir="false" />
-    </list>
-    <list id="f265dfaf-bf47-4e16-a73e-85cf922c1928" name="FixCPS" comment="FixCPS">
-      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/FixCPS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/res/FixCPS/defaults/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/FixCPS/src/ru/arcein/plugins/arceinultimate/modules/fixcps/FixCPSModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FixCPS/res/module.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/FixCPS/res/module.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modules/FixCPS/src/ru/arcein/plugins/arceinultimate/modules/fixcps/FixCPS.java" beforeDir="false" />
-    </list>
-    <list id="9a3b307c-df5b-4029-a48d-da1b89cd4912" name="HIBC" comment="HIBC">
-      <change afterPath="$PROJECT_DIR$/Modules/HIBC/HIBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/HIBC/res/HIBC/defaults/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/HIBC/res/module.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modules/HIBC/src/ru/arcein/plugins/arceinultimate/modules/hibc/HIBCModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/integration/IntegrationsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/ru/arcein/plugins/arceinultimate/core/integration/IntegrationsHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="b2196aa0-131d-415c-b1d3-2ca9fefa7b21" name="Default Changelist" comment="" />
+    <list id="25369a64-abb0-41e0-b247-c990bc10dc9b" name="Core" comment="Core" />
+    <list id="f265dfaf-bf47-4e16-a73e-85cf922c1928" name="FixCPS" comment="FixCPS" />
+    <list id="9a3b307c-df5b-4029-a48d-da1b89cd4912" name="HIBC" comment="HIBC" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +191,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="core" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
